@@ -1,26 +1,53 @@
-# OverclockMe
+# OverclockMe ⚡
 
-**OverclockMe** is an open-source, minimalist front-end interface built with React, Vite, TailwindCSS, and Material UI.  
-Its goal is to serve as the first step in a broader platform designed for **people with limited time to study**, helping them structure and optimize their learning routines with the help of AI.
+**OverclockMe** is an open-source, minimalist interface built with React, Vite, TailwindCSS, and Material UI.  
+It’s designed to assist people with **limited study time** in organizing efficient, AI-enhanced learning routines — from planning to execution.
 
 ## 📌 Purpose
 
-It targets users who:
+OverclockMe is made for people who:
 
-- Have **tight schedules**
-- Struggle with organizing their study time
-- Want AI-based assistance to plan efficient routines
-- Prefer fast, clean, and distraction-free interfaces
+- Have **tight or unpredictable schedules**
+- Want to optimize their learning time
+- Prefer clean, responsive, and distraction-free UIs
+- Seek AI-driven assistance to stay consistent
 
-## 💡 Features
+## 🧠 Flow Preview
 
-- 🧠 Simple, clean layout optimized for UX
-- 🧍 Auto-focus on the first input
-- ⚠️ Field validation with clear error feedback
-- ⏳ Loading spinner feedback with `@mui/material`
-- 📱 Fully responsive design (mobile-friendly)
-- 🔐 Simulates login with Gemini API Key
-- 🧩 Fully open-source and easy to extend
+1. **Login** — with your name and Gemini API Key
+2. **Goal Definition** — just type what you want to learn (topics, videos, goals, etc.)
+3. **Time Setup** — add your available time slots
+4. **Dashboard** — follow your personalized plan
+
+> This flow will evolve with features like performance tracking, smart insights, and backend integration.
+
+## 💡 Current Features
+
+- 🎯 Focused, step-by-step UI
+- 🧍 Auto-focus and input guidance
+- ⛔ Field validation with clear feedback
+- ⏳ Loading states with Material UI spinners
+- 📱 Mobile-friendly and responsive layout
+- 🔐 Gemini API key input (simulated for now)
+- 📊 Dashboard with calendar, plan, and study progress cards
+
+## 📸 UI Screenshots
+
+#### 🔐 Login
+
+<img src="./assets/Login.png" alt="Login screen" width="600"/>
+
+#### 🧠 What You Want to Learn
+
+<img src="./assets/Prompt.png" alt="Prompt screen" width="600"/>
+
+#### 🕒 Time Setup
+
+<img src="./assets/Timesetup.png" alt="Time setup screen" width="600"/>
+
+#### 📊 Dashboard
+
+<img src="./assets/Dashboard.png" alt="Dashboard screen" width="800"/>
 
 ## 🛠️ Tech Stack
 
@@ -45,18 +72,18 @@ npm install
 # Start the development server
 npm run dev
 
-    Note: The project currently simulates a login — no real backend or API validation is used (yet!).
+    🔧 Note: The login currently simulates API usage. Backend and persistence features are under construction.
 
 🌐 Contributing
 
-This project is fully open-source.
+This project is fully open-source and in active development.
 Feel free to fork it, open issues, suggest features, or submit pull requests.
+📜 License
 
-This project is licensed under the MIT License.
-See the license file for more info.
-✨ Want to try Gemini?
+Licensed under the MIT License.
+See the LICENSE file for details.
+✨ Try Gemini (Free)
 
 Get your free Gemini API key here:
 👉 https://ai.google.dev/gemini-api/docs
-
 ```
