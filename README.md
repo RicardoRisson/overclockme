@@ -5,7 +5,6 @@ Its goal is to serve as the first step in a broader platform designed for **peop
 
 ## 📌 Purpose
 
-OverclockMe is a prototype login screen for future integration with the **Gemini API**.  
 It targets users who:
 
 - Have **tight schedules**
@@ -52,10 +51,9 @@ npm run dev
 
 This project is fully open-source.
 Feel free to fork it, open issues, suggest features, or submit pull requests.
-📎 [LICENSE](./LICENSE)
 
 This project is licensed under the MIT License.
-See the [LICENSE](./LICENSE) file for more info.
+See the license file for more info.
 ✨ Want to try Gemini?
 
 Get your free Gemini API key here:
