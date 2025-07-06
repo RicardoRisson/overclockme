@@ -61,7 +61,7 @@ OverclockMe is made for people who:
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/overclockme.git
+git clone https://github.com/ricardorisson/overclockme.git
 
 # Navigate into the project folder
 cd overclockme
